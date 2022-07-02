@@ -6,8 +6,10 @@ from setuptools import find_packages
 
 setup(
     name='sbblogparser',
-    version='0.1.1b',
+    version='0.1.1c',
     description='A Storybook Brawl Log Parser',
     packages=find_packages(),
-    requires=['pygtail',]
+    install_requires=[
+        'pygtail',
+    ],
 )
